@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>j query project</title>
+  </head>
+  <body>
+    <!-- <button class="btn">click me</button>
+    <div class="d">that is first jquery project</div> -->
+    <button class="btn">slid IN</button>
+    <button class="btn1">slid out</button>
+    <button class="btn2">slid toggle</button>
+    <img
+      src="WhatsApp Image 2023-12-15 at 6.17.04 PM.jpeg"
+      width="100"
+      height=""
+      alt=""
+      class="img2"
+    />
+  </body>
+  <script src="jquery-3.7.1.min.js"></script>
+
+  <script>
+    // $(".btn").click(function(){
+    //     $(".d").append("<p>thati is append chlid in the div</p>").css('color','red').fadeToggle(20)
+    //       // $(".d").css("color","red")
+
+    // })
+    $(document).ready(function(){
+      
+      
+    //     $(".btn").click(function(){
+    //     $('.img2').slideToggle()
+    //   })
+      
+    //   $(".btn1").click(function(){
+    //     $('.img2').slideDown()
+    //   })
+
+$(".btn2").click(function(){
+    $(".img2").slideToggle()
+})
+    })
+  </script>
+</html>
