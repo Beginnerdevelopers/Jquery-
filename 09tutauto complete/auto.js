@@ -1,0 +1,32 @@
+let language=[
+    "ActionScript",
+    "AppleScript",
+    "Asp",
+    "BASIC",
+    "C",
+    "C++",
+    "Clojure",
+    "COBOL",
+    "ColdFusion",
+    "Erlang",
+    "Fortran",
+    "Groovy",
+    "Haskell",
+    "Java",
+    "JavaScript",
+    "Lisp",
+    "Perl",
+    "PHP",
+    "Python",
+    "Ruby",
+    "Scala",
+    "Scheme"
+]
+$(document).ready(()=>{
+$("#input").autocomplete({
+    source :language
+},{
+    autoFocus:true,
+    minLenght:3
+})
+})
